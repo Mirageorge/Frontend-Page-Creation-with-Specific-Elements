@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    background-color: #1a1c1b;
+    font-family: libre Baskerville;
+    color: #fff;
+   align-items: center;
+   justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding: 0;
+}
+
+.name-pic{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    box-shadow: 0 0 20px 20px #fff;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+img{
+    width: 130px;
+    margin: 20px;
+    border-radius: 20px;
+    transition: transform 1s ease;
+}
+
+img:hover{
+    transform: scale(1.4);
+}
+
+.name{
+    font-size: 40px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.day-time,.track-hub{
+    box-shadow: 0 0 4px 0px #fff;
+    border-radius: 15px;
+    margin-top: 50px;
+    padding: 15px;
+    display: flex;
+}
+
+.day-time{
+    flex-direction: row;
+}
+
+.track-hub{
+    flex-direction: column;
+}
