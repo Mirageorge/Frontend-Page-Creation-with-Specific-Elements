@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
+
+
 body{
-    background-color: #1a1c1b;
+    background-color: #212623;
     font-family: libre Baskerville;
     color: #fff;
-   align-items: center;
-   justify-content: center;
+    align-items: center;
+    justify-content: center;
     display: flex;
     flex-direction: column;
-    margin-top: 0;
+    margin-top: 40px;
     padding: 0;
 }
 
@@ -17,16 +19,15 @@ body{
     align-items: center;
     width: 100%;
     max-width: 500px;
-    flex-direction: column-reverse;
+    flex-direction: column;
     flex-wrap: wrap;
-    box-shadow: 0 0 20px 20px #fff;
-    border-radius: 15px;
-    margin-top: 40px;
+    box-shadow: 0 0 20px 10px #fff;
+    padding: 20px;
 }
 
 img{
-    width: 130px;
-    margin: 20px;
+    width: 150px;
+    margin-top: 0px;
     border-radius: 20px;
     transition: transform 1s ease;
 }
@@ -42,25 +43,34 @@ img:hover{
 h1{
     font-size: 30px;
     font-weight: bolder;
-    margin: 20px;
 }
 
 p{
     font-size: 20px;
 }
 
-.day-time,.track-hub{
-    box-shadow: 0 0 4px 0px #fff;
-    border-radius: 15px;
-    margin-top: 50px;
-    padding: 15px;
-    display: flex;
-}
-
 .day-time{
-    flex-direction: row;
+    box-shadow: 0 0 4px 0px #fff;
+    margin-top: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.track-hub{
-    flex-direction: column;
+#day,#time:hover{
+    color:#868887;
+}
+
+a{
+    color:#fff
+}
+
+a:hover{
+    color: #868887;
+}
+
+a:active{
+    color: aquamarine;
 }
