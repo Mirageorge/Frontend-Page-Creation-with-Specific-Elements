@@ -55,7 +55,10 @@ p{
     justify-content: center;
 }
 
-#day:hover, #time:hover{
+#time:hover{
+    color:#868887;
+}
+#day:hover{
     color:#868887;
 }
 
