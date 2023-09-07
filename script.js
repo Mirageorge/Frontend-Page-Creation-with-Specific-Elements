@@ -35,8 +35,9 @@ switch (d) {
 let h = date.getUTCHours();
 let m = date.getUTCMinutes();
 let s = date.getUTCSeconds();
+let ml = date.getUTCMilliseconds();
 
-let time = `${h} : ${m} : ${s}`;
+let time = `${h} : ${m} : ${s} : ${ml}`;
 
 document.getElementById("time").innerHTML = time;
 
